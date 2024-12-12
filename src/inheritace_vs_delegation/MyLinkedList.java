@@ -1,4 +1,4 @@
-package stack.work.inheritance;
+package inheritance_vs_delegation;
 
 import java.util.LinkedList;
 
@@ -22,7 +22,9 @@ public class MyLinkedList<T> {
         list.add(index, e);
     }
 
-    public boolean isEmpty() { return list.isEmpty(); }
+    public boolean isEmpty() {
+        return list.isEmpty();
+    }
 
     @Override
     public String toString() {
